@@ -1,0 +1,47 @@
+{
+    "Bambu PLA Basic": {
+        "description": "Standard Polylactic Acid. High stiffness, low ductility.",
+        "density_g_cm3": 1.24,
+        "youngs_modulus_mpa": 2630,
+        "poissons_ratio": 0.36,
+        "yield_strength_mpa": 50,
+        "tensile_strength_mpa": 55,
+        "color_hex": "#00FF00"
+    },
+    "Bambu PETG Basic": {
+        "description": "Polyethylene Terephthalate Glycol. Good balance of strength and ductility.",
+        "density_g_cm3": 1.27,
+        "youngs_modulus_mpa": 1520,
+        "poissons_ratio": 0.39,
+        "yield_strength_mpa": 30,
+        "tensile_strength_mpa": 45,
+        "color_hex": "#0000FF"
+    },
+    "Bambu ABS": {
+        "description": "Acrylonitrile Butadiene Styrene. High impact resistance, lower stiffness.",
+        "density_g_cm3": 1.05,
+        "youngs_modulus_mpa": 1900,
+        "poissons_ratio": 0.35,
+        "yield_strength_mpa": 35,
+        "tensile_strength_mpa": 40,
+        "color_hex": "#FF0000"
+    },
+    "Bambu ASA": {
+        "description": "Acrylonitrile Styrene Acrylate. UV resistant, properties similar to ABS.",
+        "density_g_cm3": 1.07,
+        "youngs_modulus_mpa": 2020,
+        "poissons_ratio": 0.35,
+        "yield_strength_mpa": 35,
+        "tensile_strength_mpa": 42,
+        "color_hex": "#FFA500"
+    },
+    "Bambu TPU 95A": {
+        "description": "Thermoplastic Polyurethane. Flexible elastomer.",
+        "density_g_cm3": 1.22,
+        "youngs_modulus_mpa": 26,
+        "poissons_ratio": 0.48,
+        "yield_strength_mpa": 12,
+        "tensile_strength_mpa": 30,
+        "color_hex": "#FFFF00"
+    }
+}

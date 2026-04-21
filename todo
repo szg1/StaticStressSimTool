@@ -1,0 +1,8 @@
+LEFM
+cohesive zone modfels CZM
+phase field fracture
+continuum damage mechanics
+peridynamics nonlocal methods
+xfem / enrichment
+
+LEFM+XFEM/phase field -> cracks

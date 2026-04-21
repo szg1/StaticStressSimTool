@@ -1,0 +1,6 @@
+.venv/
+stl_viewer
+*.o
+*.stl
+__pycache__/
+*.pyc

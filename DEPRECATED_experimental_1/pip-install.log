@@ -1,0 +1,51 @@
+2025-12-03T09:35:38,690 Using pip 25.3 from /Users/gergoszabo/LocalOnly/code/simtool/DEPRECATED_experimental_1/.venv/lib/python3.12/site-packages/pip (python 3.12)
+2025-12-03T09:35:38,691 Non-user install because user site-packages disabled
+2025-12-03T09:35:38,730 Created temporary directory: /private/var/folders/27/hmkc3r414y99cmv9j4tm7s0w0000gn/T/pip-build-tracker-qii792t7
+2025-12-03T09:35:38,730 Initialized build tracking at /private/var/folders/27/hmkc3r414y99cmv9j4tm7s0w0000gn/T/pip-build-tracker-qii792t7
+2025-12-03T09:35:38,730 Created build tracker: /private/var/folders/27/hmkc3r414y99cmv9j4tm7s0w0000gn/T/pip-build-tracker-qii792t7
+2025-12-03T09:35:38,731 Entered build tracker: /private/var/folders/27/hmkc3r414y99cmv9j4tm7s0w0000gn/T/pip-build-tracker-qii792t7
+2025-12-03T09:35:38,731 Created temporary directory: /private/var/folders/27/hmkc3r414y99cmv9j4tm7s0w0000gn/T/pip-install-awe0d9oc
+2025-12-03T09:35:38,734 Remote version of pip: 25.3
+2025-12-03T09:35:38,735 Local version of pip:  25.3
+2025-12-03T09:35:38,737 Was pip installed by pip? True
+2025-12-03T09:35:38,738 ERROR: Could not open requirements file: [Errno 2] No such file or directory: '{requirements_file}'
+2025-12-03T09:35:38,738 Exception information:
+2025-12-03T09:35:38,738 Traceback (most recent call last):
+2025-12-03T09:35:38,738   File "/Users/gergoszabo/LocalOnly/code/simtool/DEPRECATED_experimental_1/.venv/lib/python3.12/site-packages/pip/_internal/req/req_file.py", line 583, in get_file_content
+2025-12-03T09:35:38,738     with open(url, "rb") as f:
+2025-12-03T09:35:38,738          ^^^^^^^^^^^^^^^
+2025-12-03T09:35:38,738 FileNotFoundError: [Errno 2] No such file or directory: '{requirements_file}'
+2025-12-03T09:35:38,738 
+2025-12-03T09:35:38,738 During handling of the above exception, another exception occurred:
+2025-12-03T09:35:38,738 
+2025-12-03T09:35:38,738 Traceback (most recent call last):
+2025-12-03T09:35:38,738   File "/Users/gergoszabo/LocalOnly/code/simtool/DEPRECATED_experimental_1/.venv/lib/python3.12/site-packages/pip/_internal/cli/base_command.py", line 107, in _run_wrapper
+2025-12-03T09:35:38,738     status = _inner_run()
+2025-12-03T09:35:38,738              ^^^^^^^^^^^^
+2025-12-03T09:35:38,738   File "/Users/gergoszabo/LocalOnly/code/simtool/DEPRECATED_experimental_1/.venv/lib/python3.12/site-packages/pip/_internal/cli/base_command.py", line 98, in _inner_run
+2025-12-03T09:35:38,738     return self.run(options, args)
+2025-12-03T09:35:38,738            ^^^^^^^^^^^^^^^^^^^^^^^
+2025-12-03T09:35:38,738   File "/Users/gergoszabo/LocalOnly/code/simtool/DEPRECATED_experimental_1/.venv/lib/python3.12/site-packages/pip/_internal/cli/req_command.py", line 85, in wrapper
+2025-12-03T09:35:38,738     return func(self, options, args)
+2025-12-03T09:35:38,738            ^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-12-03T09:35:38,738   File "/Users/gergoszabo/LocalOnly/code/simtool/DEPRECATED_experimental_1/.venv/lib/python3.12/site-packages/pip/_internal/commands/install.py", line 354, in run
+2025-12-03T09:35:38,738     reqs = self.get_requirements(args, options, finder, session)
+2025-12-03T09:35:38,738            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-12-03T09:35:38,738   File "/Users/gergoszabo/LocalOnly/code/simtool/DEPRECATED_experimental_1/.venv/lib/python3.12/site-packages/pip/_internal/cli/req_command.py", line 293, in get_requirements
+2025-12-03T09:35:38,738     for parsed_req in parse_requirements(
+2025-12-03T09:35:38,738                       ^^^^^^^^^^^^^^^^^^^
+2025-12-03T09:35:38,738   File "/Users/gergoszabo/LocalOnly/code/simtool/DEPRECATED_experimental_1/.venv/lib/python3.12/site-packages/pip/_internal/req/req_file.py", line 164, in parse_requirements
+2025-12-03T09:35:38,738     for parsed_line in parser.parse(filename, constraint):
+2025-12-03T09:35:38,738                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-12-03T09:35:38,738   File "/Users/gergoszabo/LocalOnly/code/simtool/DEPRECATED_experimental_1/.venv/lib/python3.12/site-packages/pip/_internal/req/req_file.py", line 345, in parse
+2025-12-03T09:35:38,738     yield from self._parse_and_recurse(
+2025-12-03T09:35:38,738   File "/Users/gergoszabo/LocalOnly/code/simtool/DEPRECATED_experimental_1/.venv/lib/python3.12/site-packages/pip/_internal/req/req_file.py", line 355, in _parse_and_recurse
+2025-12-03T09:35:38,738     for line in self._parse_file(filename, constraint):
+2025-12-03T09:35:38,738                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-12-03T09:35:38,738   File "/Users/gergoszabo/LocalOnly/code/simtool/DEPRECATED_experimental_1/.venv/lib/python3.12/site-packages/pip/_internal/req/req_file.py", line 404, in _parse_file
+2025-12-03T09:35:38,738     _, content = get_file_content(filename, self._session)
+2025-12-03T09:35:38,738                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-12-03T09:35:38,738   File "/Users/gergoszabo/LocalOnly/code/simtool/DEPRECATED_experimental_1/.venv/lib/python3.12/site-packages/pip/_internal/req/req_file.py", line 586, in get_file_content
+2025-12-03T09:35:38,738     raise InstallationError(f"Could not open requirements file: {exc}")
+2025-12-03T09:35:38,738 pip._internal.exceptions.InstallationError: Could not open requirements file: [Errno 2] No such file or directory: '{requirements_file}'
+2025-12-03T09:35:38,741 Removed build tracker: '/private/var/folders/27/hmkc3r414y99cmv9j4tm7s0w0000gn/T/pip-build-tracker-qii792t7'
